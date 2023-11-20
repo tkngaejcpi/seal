@@ -1,0 +1,12 @@
+# package
+pnpm-lock.yaml
+node_modules/
+
+# typescript stuff
+tsconfig.json
+src/
+
+# chore
+.gitignore
+LICENSE
+README.md

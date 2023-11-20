@@ -1,15 +1,33 @@
 {
   "name": "@rileycki3333/seal",
   "version": "1.0.0",
-  "description": "",
+  "author": {
+    "name": "Riley Chang",
+    "email": "rileycki3333@gmail.com"
+  },
+  "keywords": [
+    "sign",
+    "verify",
+    "signature",
+    "ecdsa",
+    "subtlecrypto"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkngaejcpi/seal"
+  },
+  "bugs": {
+    "url": "https://github.com/tkngaejcpi/seal/issues",
+    "email": "rileycki3333@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "description": "an easy-to-use signing and verifying library",
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc && tsc-alias"
+    "build": "tsc && tsc-alias",
+    "test": "echo SKIP TEST"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "tsc-alias": "^1.8.8",
     "typescript": "^5.2.2"

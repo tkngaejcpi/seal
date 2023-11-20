@@ -1,0 +1,5 @@
+# build production
+lib/
+
+# node
+node_modules/

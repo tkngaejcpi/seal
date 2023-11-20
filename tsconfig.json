@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+
+    "outDir": "lib",
+    "rootDir": "src",
+
+    "declaration": true,
+
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+
+  "tsc-alias": {
+    "resolveFullPaths": true
+  },
+
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules"]
+}

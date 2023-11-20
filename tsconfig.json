@@ -6,7 +6,9 @@
     "skipLibCheck": true,
     "strict": true,
     "esModuleInterop": true,
+
     "module": "ESNext",
+    "moduleResolution": "Bundler",
 
     "outDir": "lib",
     "rootDir": "src",
